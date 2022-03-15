@@ -5,7 +5,7 @@ package Bil481_App;
 import java.util.ArrayList;
 
 public class App {
-    public boolean isNumbersInArrayList(ArrayList<Integer> list, int num1, int num2){
+    public static boolean isNumbersInArrayList(ArrayList<Integer> list, int num1, int num2){
         if(list == null){
             return false;
         }
